@@ -1,0 +1,29 @@
+### GET items
+GET http://127.0.0.1:8000/items
+
+### POST item
+
+POST http://127.0.0.1:8000/items/
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "description": "alice describe",
+  "price": 700
+}
+
+### PUT item
+PUT http://127.0.0.1:8000/items/1
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "description": "alice describtion update",
+  "price": 700
+}
+
+### GET one item
+GET http://127.0.0.1:8000/items/2
+
+### DELTE one item
+DELETE  http://127.0.0.1:8000/items/2
